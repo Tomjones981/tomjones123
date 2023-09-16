@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   
+    <style>
+        body{
+            background-image:url('https://cdn.wallpapersafari.com/88/75/QKFd98.gif');
+            background-repeat: no-repeat;
+                background-size: cover;
+        }
+        header{
+            
+            padding: 30px;
+            text-align: center;
+            font-size: 50px;
+            padding: 30px;
+        }
+    </style>
+<center>
+    <header>
+        <font color="#9900FF"> CRUD OPERATIONS. </font>
+    </header>
+    
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Crud operation in javascript</title>
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color: #416F45;">
+
+    <table>
+
+        <tr>
+
+            <td>
+
+                <!--HTML file form for crud operation-->
+
+  				<!--form div, tbody table, html table, all of them can update by a update button-->
+
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+
+                    <div>
+                        <font color="#9900FF"> 
+                            <label for="firstName">First Name</label>
+
+                        <input type="text" name="firstName" id="firstName" >
+                             </font>
+                        
+
+                    </div>
+
+                    <div>
+                        <font color="#9900FF">
+                            <label for="lastName">Last Name</label>
+
+                            <input type="text" name="lastName" id="lastName" >
+                             </font>
+                       
+
+                    </div>
+
+                    <div>
+                        <font color="#9900FF"> <label for="section">Section</label>
+
+                            <input type="text" name="section" id="section"> </font>
+                        
+
+                    </div>
+
+                    <div>
+                        <font color="#9900FF"><label for="sCHOOL">SCHOOL</label>
+
+                            <input type="text" name="sCHOOL" id="sCHOOL"></font>
+                        
+
+                    </div>
+
+                    <div class="form_action--button">
+
+                        <input type="submit" value="Submit">
+
+                        <input type="reset" value="Reset">
+
+                    </div>
+
+                </form>
+
+            </td>
+
+            <td>
+
+                <table class="list" id="employeeList">
+
+                    <thead>
+
+                        <tr>
+                            <font color="#9900FF"> 
+                                <th>First Name</th>
+
+                            <th>Last Name</th>
+
+                            <th>Section</th>
+
+                            <th>SCHOOL</th>
+
+                            <th></th>
+                            </font>
+                            
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+
+
+                    </tbody>
+
+                </table>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <script type="text/javascript" src="./script.js"></script>
+
+</body>
+</center>
+    
+
+</html>
